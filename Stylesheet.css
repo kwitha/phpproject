@@ -1,0 +1,509 @@
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+.homepage{ height: 100vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    font-family: "Times New Roman";
+    color: white;
+    margin: 150px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 200px;
+
+    font-size: 55px;
+
+}
+
+h2{
+    color: white;
+    margin: 20px;
+    padding: 0px;
+
+
+    padding: 0px;
+    font-size: 16px;
+}
+h3{
+    color: white;
+    margin: 20px;
+    margin-left: -450px;
+}
+h4{
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+li {
+    display: inline;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 150px;
+    box-shadow: 0 4px 8px rgb( 0, 0, 0, 0 ,1);
+   margin-top: 100px;
+    bottom: 20px;
+
+
+}
+.srch{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 50px -60px;
+    border-radius: 30px;
+    width: 250px;
+}
+.btn{
+        background: #4CAF50;
+        color: yellow;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        margin-right: -150px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+
+        transition: background 0.3s ease;
+    }
+.btn:hover {
+    background: #45a049;
+}
+.btn1{background: #4CAF50;
+    color: gray;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+.login-btn{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    background-color: brown;
+    color: #4CAF50;
+    border: none;
+    outline: none;
+    padding: 10px 4px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.getstarted-btn{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    background-color: green;
+    color: blue;
+    border: none;
+    outline: none;
+    padding: 10px 4px;
+    border-radius: 40px;
+    font-size: 13px;
+}
+.usdollar{
+    position: absolute;
+    top: 20px;
+    right: 1px;
+    background-color:white;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    padding: 10px 2px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.popular-domain-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: whitesmoke; /* light gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.popular-domain-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px; /* space between buttons */
+}
+
+.button-group button {
+    padding: 8px 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+    background-color: #45a049; /* darker green on hover */
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* Align content to the left */
+    padding: 20px;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+.main-top{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ h4{
+     justify-content: center;
+     text-align: center;
+    font-family: "Times New Roman";
+    color: black;
+     margin: 0px;
+     padding: 10px;
+     margin-bottom: 0px;
+     margin-top: 20px;
+
+    font-size: 20px;
+
+}
+
+
+.main-skills {
+    width: 100%;
+    display: flex;             /* Make children line up in a row */
+    gap: 20px;                 /* Space between cards (optional) */
+    justify-content: flex-start; /* Align to the left */
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 300px;
+    background-color:navajowhite;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-left: 15px; /* ensure it's at the far left */
+}
+.card:hover{
+ background-color: blue;
+}
+.Hosting{
+    justify-content: center;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+    font-size: 20px;
+}
+.plan{
+    color: whitesmoke;
+    width: 100%;
+    display: flex;             /* Make children line up in a row */
+    gap: 20px;                 /* Space between cards (optional) */
+    justify-content: flex-start; /* Align to the left */
+    flex-wrap: wrap;
+}
+.card-plan{
+    width: 300px;
+    color: yellow;
+    background-color:whitesmoke;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-left: 15px; /* ensure it's at the far left */
+
+}
+.card-plan:hover{
+    background-color: blue;
+}
+.services{
+    background-color: blue;
+}
+.services-top{
+    justify-content: center;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+    font-size: 20px;
+}
+.services-hosting{
+    color: whitesmoke;
+    width: 100%;
+    display: flex;             /* Make children line up in a row */
+    gap: 20px;                 /* Space between cards (optional) */
+    justify-content: flex-start; /* Align to the left */
+    flex-wrap: wrap;
+}
+.card-hosting{
+    width: 300px;
+    color: black;
+    background-color:whitesmoke;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-left: 15px; /* ensure it's at the far left */
+
+}
+.card-hosting:hover{
+    background-color: blue;
+}
+.button6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px /* Full height of the viewport */
+}
+
+.button6 button {
+    padding: 3px 2px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.choose{
+    justify-content:left;
+    text-align: left;
+    font-family: "Times New Roman";
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+    font-size: 20px;
+}
+.choose-hostie{
+    color: whitesmoke;
+    width: 100%;
+    display: flex;             /* Make children line up in a row */
+    gap: 70px;                 /* Space between cards (optional) */
+    justify-content: flex-start; /* Align to the left */
+    flex-wrap: wrap;
+}
+.card-choose{
+    width: 200px;
+    color: black;
+    background-color:forestgreen;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 80px;
+    margin-left: 0px; /* ensure it's at the far left */
+
+}
+
+.btn7{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    top: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns all children to the right */
+    padding: 50px;
+    margin: 50px;/* Optional: space inside the container */
+}
+
+.security-container,
+.paragraph {
+    text-align: right;     /* Aligns text to the right */
+    font-size: 18px;
+    max-width: 800px;
+    margin-right: 180px;/* Optional: restricts line length */
+}
+
+.security-container {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 60px;
+    margin-right: 100px;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 330px;
+    width: 90%;
+}
+
+.advanced {
+    width: 2px;
+}
+
+.security {
+    margin-left: 10px;
+}
+
+.features {
+    padding-left: 0;
+    margin-right:330px ;
+}
+
+.paragraph {
+    font-weight: normal;
+    line-height: 1.8;
+
+}
+.second-line{
+    margin-right: 90px;
+}
+.button3-container{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 20px;
+
+    width: 50%;
+    padding: 80px;
+    padding-right: 20px;
+    margin-left: 200px;
+    gap:50px;
+    margin-top: -80px;
+
+}
+.btn-2{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    top: 10px;
+    margin-right: 200px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border: none;
+}
+.card-container{
+    display:flex;
+    justify-content: flex-start;
+    overflow-y: auto;
+    height: 100%;
+    gap:100px;
+    padding: 20px;
+    margin: 50px;
+    white-space: nowrap;
+
+}
+.feedback{
+    background-color: whitesmoke;
+}
+h8{ margin: 400px;
+    font-size: 50px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card-1{
+     font-size: 30px;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+.Article-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.articles-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.heading-alt1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
